@@ -11,7 +11,7 @@ test('Test 1', async ({ page }) => {
     // Validate the web page title
     await expect(page).toHaveTitle('Demo Web Shop');
 
-    console.log("Test Ended");
+    console.log("Test Ended")
     await page.close();
 
 })

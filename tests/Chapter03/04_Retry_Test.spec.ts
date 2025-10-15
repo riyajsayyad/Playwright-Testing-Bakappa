@@ -14,7 +14,7 @@ test('Validating the page title', async ({ page }) => {
     await page.locator('.email').fill('admin01@gmail.com');
     await page.locator('.password').fill('admin01');
     await page.locator('[value="Log in"]').click();
-    await page.locator('.ico-logout').click();
+    await page.locator('.ico-logoutt').click();
     await page.close();
 
     console.log("Test Ended");

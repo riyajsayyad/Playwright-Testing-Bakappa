@@ -31,6 +31,6 @@ test('Element Visual Comparison in Playwright', async ({ page }) => {
 
     await expect(form).toHaveScreenshot('GitHubLoginForm.png');
 
-    console.log("Test Ended");
+    console.log("Test Ended Here");
 
 })

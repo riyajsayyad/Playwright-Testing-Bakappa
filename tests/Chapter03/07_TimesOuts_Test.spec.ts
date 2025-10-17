@@ -18,19 +18,3 @@ test('Visual Comparison in Playwright', async ({ page }) => {
     console.log("Test Ended");
 
 })
-
-// write test case
-test('Element Visual Comparison in Playwright', async ({ page }) => {
-
-    console.log("Added")
-
-    await page.goto('https://github.com/login');
-
-    const form = page.locator('[action="/session"]');
-    await page.locator('#login_field').fill('riyajsayyad');
-
-    await expect(form).toHaveScreenshot('GitHubLoginForm.png');
-
-    console.log("Test Ended Here");
-
-})

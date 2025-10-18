@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 // write test case
-test('Visual Comparison in Playwright', async ({ page }) => {
+test('Timeout in Playwright', async ({ page }) => {
 
     console.log("Test Started")
 

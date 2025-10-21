@@ -16,5 +16,6 @@ test('Timeout in Playwright', async ({ page }) => {
     await expect(page).toHaveScreenshot('GitHubLoginPage.png');
 
     console.log("Test Ended");
+    console.log("Added on feature1 branch");
 
 })

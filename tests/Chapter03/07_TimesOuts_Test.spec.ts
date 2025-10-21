@@ -17,6 +17,6 @@ test('Timeout in Playwright', async ({ page }) => {
 
     console.log("Test Ended");
     console.log("Added new main branch line");
-    console.log("Added on feature1 branch");
+    console.log("Created feature 2 branch ")
 
 })

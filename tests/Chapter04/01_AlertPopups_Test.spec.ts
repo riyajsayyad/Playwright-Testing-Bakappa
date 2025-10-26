@@ -9,4 +9,6 @@ test('Alert Popups in Playwright', async ({ page }) => {
 
     await page.getByText('See an example alert', { exact: true }).click();
 
+    console.log("Added new file on feature1");
+
 })

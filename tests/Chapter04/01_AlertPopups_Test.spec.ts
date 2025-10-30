@@ -11,4 +11,6 @@ test('Alert Popups in Playwright', async ({ page }) => {
 
     console.log("Added new file on feature1");
 
+    console.log("Pushed new code");
+
 })

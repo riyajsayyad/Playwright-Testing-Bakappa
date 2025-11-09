@@ -1,0 +1,21 @@
+Text from for of loop : BMI-Application
+Text from for of loop : Electricity-Bill-Generatore
+Text from for of loop : To-Do-List
+Text from for of loop : second_app
+Text from for of loop : VtigerE4
+Text from for of loop : EnzigmaAssignment
+-------------------------------
+Text from for loop : BMI-Application
+Text from for loop : Electricity-Bill-Generatore
+Text from for loop : To-Do-List
+Text from for loop : second_app
+Text from for loop : VtigerE4
+Text from for loop : EnzigmaAssignment
+-------------------------------
+6
+Text from for loop using nth method : BMI-Application
+Text from for loop using nth method : Electricity-Bill-Generatore
+Text from for loop using nth method : To-Do-List
+Text from for loop using nth method : second_app
+Text from for loop using nth method : VtigerE4
+Text from for loop using nth method : EnzigmaAssignment

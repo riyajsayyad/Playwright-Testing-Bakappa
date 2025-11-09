@@ -1,0 +1,317 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - generic [ref=e29]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                  - list [ref=e34]:
+                    - listitem [ref=e35]:
+                      - generic [ref=e36]:
+                        - generic [ref=e37]: EXPLORE BY TOPIC
+                        - list [ref=e38]:
+                          - listitem [ref=e39]:
+                            - link "AI" [ref=e40] [cursor=pointer]:
+                              - /url: https://github.com/resources/articles?topic=ai
+                              - generic [ref=e41]: AI
+                          - listitem [ref=e42]:
+                            - link "Software Development" [ref=e43] [cursor=pointer]:
+                              - /url: https://github.com/resources/articles?topic=software-development
+                              - generic [ref=e44]: Software Development
+                          - listitem [ref=e45]:
+                            - link "DevOps" [ref=e46] [cursor=pointer]:
+                              - /url: https://github.com/resources/articles?topic=devops
+                              - generic [ref=e47]: DevOps
+                          - listitem [ref=e48]:
+                            - link "Security" [ref=e49] [cursor=pointer]:
+                              - /url: https://github.com/resources/articles?topic=security
+                              - generic [ref=e50]: Security
+                          - listitem [ref=e51]:
+                            - link "View all topics" [ref=e52] [cursor=pointer]:
+                              - /url: https://github.com/resources/articles
+                              - generic [ref=e53]: View all topics
+                              - img [ref=e54]
+                    - listitem [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e58]: EXPLORE BY TYPE
+                        - list [ref=e59]:
+                          - listitem [ref=e60]:
+                            - link "Customer stories" [ref=e61] [cursor=pointer]:
+                              - /url: https://github.com/customer-stories
+                              - generic [ref=e62]: Customer stories
+                          - listitem [ref=e63]:
+                            - link "Events & webinars" [ref=e64] [cursor=pointer]:
+                              - /url: https://github.com/resources/events
+                              - generic [ref=e65]: Events & webinars
+                          - listitem [ref=e66]:
+                            - link "Ebooks & reports" [ref=e67] [cursor=pointer]:
+                              - /url: https://github.com/resources/whitepapers
+                              - generic [ref=e68]: Ebooks & reports
+                          - listitem [ref=e69]:
+                            - link "Business insights" [ref=e70] [cursor=pointer]:
+                              - /url: https://github.com/solutions/executive-insights
+                              - generic [ref=e71]: Business insights
+                          - listitem [ref=e72]:
+                            - link "GitHub Skills" [ref=e73] [cursor=pointer]:
+                              - /url: https://skills.github.com
+                              - generic [ref=e74]: GitHub Skills
+                              - img [ref=e75]
+                    - listitem [ref=e77]:
+                      - generic [ref=e78]:
+                        - generic [ref=e79]: SUPPORT & SERVICES
+                        - list [ref=e80]:
+                          - listitem [ref=e81]:
+                            - link "Documentation" [ref=e82] [cursor=pointer]:
+                              - /url: https://docs.github.com
+                              - generic [ref=e83]: Documentation
+                              - img [ref=e84]
+                          - listitem [ref=e86]:
+                            - link "Customer support" [ref=e87] [cursor=pointer]:
+                              - /url: https://support.github.com
+                              - generic [ref=e88]: Customer support
+                              - img [ref=e89]
+                          - listitem [ref=e91]:
+                            - link "Community forum" [ref=e92] [cursor=pointer]:
+                              - /url: https://github.com/orgs/community/discussions
+                              - generic [ref=e93]: Community forum
+                          - listitem [ref=e94]:
+                            - link "Trust center" [ref=e95] [cursor=pointer]:
+                              - /url: https://github.com/trust-center
+                              - generic [ref=e96]: Trust center
+                          - listitem [ref=e97]:
+                            - link "Partners" [ref=e98] [cursor=pointer]:
+                              - /url: https://github.com/partners
+                              - generic [ref=e99]: Partners
+              - listitem [ref=e100]:
+                - button "Open Source" [ref=e102] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e103]
+              - listitem [ref=e105]:
+                - button "Enterprise" [ref=e107] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e108]
+              - listitem [ref=e110]:
+                - link "Pricing" [ref=e111] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e112]: Pricing
+          - generic [ref=e113]:
+            - button "Search or jump to…" [ref=e116] [cursor=pointer]:
+              - img [ref=e118]
+            - link "Sign in" [ref=e121] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Friyajsayyad
+            - link "Sign up" [ref=e122] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+            - button "Appearance settings" [ref=e125] [cursor=pointer]:
+              - img
+  - main [ref=e128]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic:
+          - generic:
+            - generic:
+              - img "@riyajsayyad"
+            - generic:
+              - strong: riyajsayyad
+              - generic:
+                - generic:
+                  - link "Follow":
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Friyajsayyad
+      - navigation "User profile" [ref=e135]:
+        - link "Overview" [ref=e136] [cursor=pointer]:
+          - /url: /riyajsayyad
+          - img [ref=e137]
+          - text: Overview
+        - link "Repositories 10" [ref=e139] [cursor=pointer]:
+          - /url: /riyajsayyad?tab=repositories
+          - img [ref=e140]
+          - text: Repositories
+          - generic "10" [ref=e142]
+        - link "Projects" [ref=e143] [cursor=pointer]:
+          - /url: /riyajsayyad?tab=projects
+          - img [ref=e144]
+          - text: Projects
+        - link "Packages" [ref=e146] [cursor=pointer]:
+          - /url: /riyajsayyad?tab=packages
+          - img [ref=e147]
+          - text: Packages
+        - link "Stars 7" [ref=e149] [cursor=pointer]:
+          - /url: /riyajsayyad?tab=stars
+          - img [ref=e150]
+          - text: Stars
+          - generic "7" [ref=e152]
+    - generic [ref=e154]:
+      - generic [ref=e156]:
+        - generic:
+          - generic:
+            - generic:
+              - img "@riyajsayyad"
+            - generic:
+              - generic:
+                - strong: riyajsayyad
+            - generic:
+              - generic:
+                - generic:
+                  - link "Follow":
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Friyajsayyad
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - link "View riyajsayyad's full-sized avatar" [ref=e160] [cursor=pointer]:
+                - /url: https://avatars.githubusercontent.com/u/137032075?v=4
+                - img "View riyajsayyad's full-sized avatar" [ref=e161]
+              - generic [ref=e164]:
+                - generic [ref=e166]: 🎯
+                - generic: Focusing
+            - heading "Riyaj Sayyad riyajsayyad" [level=1] [ref=e168]:
+              - generic [ref=e169]: Riyaj Sayyad
+              - generic [ref=e170]: riyajsayyad
+          - generic [ref=e171]:
+            - link "Follow" [ref=e178] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Friyajsayyad
+            - list [ref=e180]:
+              - 'listitem "Organization: Suryadatta Group of Institute, Pune" [ref=e181]':
+                - img [ref=e182]
+                - generic [ref=e185]: Suryadatta Group of Institute, Pune
+              - 'listitem "Home location: Pune" [ref=e186]':
+                - img [ref=e187]
+                - generic [ref=e189]: Pune
+              - listitem [ref=e190]:
+                - img [ref=e191]
+                - generic [ref=e193]: 17:39 - same time
+              - listitem [ref=e194]:
+                - img [ref=e195]
+                - link "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BPmogHoLJTxqafW3fVMDzWQ%3D%3D" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BPmogHoLJTxqafW3fVMDzWQ%3D%3D
+          - generic [ref=e198]:
+            - heading "Achievements" [level=2] [ref=e199]:
+              - link "Achievements" [ref=e200] [cursor=pointer]:
+                - /url: /riyajsayyad?tab=achievements
+            - generic [ref=e201]:
+              - 'link "Achievement: Quickdraw" [ref=e202] [cursor=pointer]':
+                - /url: /riyajsayyad?achievement=quickdraw&tab=achievements
+                - 'img "Achievement: Quickdraw" [ref=e203]'
+              - 'link "Achievement: Pull Shark" [ref=e204] [cursor=pointer]':
+                - /url: /riyajsayyad?achievement=pull-shark&tab=achievements
+                - 'img "Achievement: Pull Shark" [ref=e205]'
+          - button "Block or Report" [ref=e206] [cursor=pointer]:
+            - generic [ref=e208]: Block or Report
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - heading "Popular repositories Loading" [level=2] [ref=e214]:
+            - text: Popular repositories
+            - generic [ref=e215]: Loading
+            - status
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - link "BMI-Application" [ref=e222] [cursor=pointer]:
+                    - /url: /riyajsayyad/BMI-Application
+                  - generic [ref=e224]: Public
+                - paragraph [ref=e225]: Here all My Practice Series.
+                - paragraph [ref=e226]:
+                  - generic [ref=e227]: C++
+            - listitem [ref=e229]:
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - link "Electricity-Bill-Generatore" [ref=e234] [cursor=pointer]:
+                    - /url: /riyajsayyad/Electricity-Bill-Generatore
+                  - generic [ref=e236]: Public
+                - paragraph [ref=e237]: This is a Bill Generator Project
+                - paragraph [ref=e238]:
+                  - generic [ref=e239]: Java
+            - listitem [ref=e241]:
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - link "To-Do-List" [ref=e246] [cursor=pointer]:
+                    - /url: /riyajsayyad/To-Do-List
+                  - generic [ref=e248]: Public
+                - paragraph
+                - paragraph [ref=e249]:
+                  - generic [ref=e250]: C++
+            - listitem [ref=e252]:
+              - generic [ref=e254]:
+                - generic [ref=e255]:
+                  - link "second_app" [ref=e257] [cursor=pointer]:
+                    - /url: /riyajsayyad/second_app
+                  - generic [ref=e259]: Public
+                - paragraph [ref=e260]
+                - paragraph
+            - listitem [ref=e261]:
+              - generic [ref=e263]:
+                - generic [ref=e264]:
+                  - link "VtigerE4" [ref=e266] [cursor=pointer]:
+                    - /url: /riyajsayyad/VtigerE4
+                  - generic [ref=e268]: Public
+                - paragraph [ref=e269]
+                - paragraph [ref=e270]:
+                  - generic [ref=e271]: HTML
+            - listitem [ref=e273]:
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - link "EnzigmaAssignment" [ref=e278] [cursor=pointer]:
+                    - /url: /riyajsayyad/EnzigmaAssignment
+                  - generic [ref=e280]: Public
+                - paragraph [ref=e281]: This is Automation Project
+                - paragraph [ref=e282]:
+                  - generic [ref=e283]: Java
+        - img "Loading" [ref=e289]
+  - contentinfo [ref=e292]:
+    - heading "Footer" [level=2] [ref=e293]
+    - generic [ref=e294]:
+      - generic [ref=e295]:
+        - link "GitHub Homepage" [ref=e296] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e297]
+        - generic [ref=e299]: © 2025 GitHub, Inc.
+      - navigation "Footer" [ref=e300]:
+        - heading "Footer navigation" [level=3] [ref=e301]
+        - list "Footer navigation" [ref=e302]:
+          - listitem [ref=e303]:
+            - link "Terms" [ref=e304] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e305]:
+            - link "Privacy" [ref=e306] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e307]:
+            - link "Security" [ref=e308] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e309]:
+            - link "Status" [ref=e310] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e311]:
+            - link "Community" [ref=e312] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e313]:
+            - link "Docs" [ref=e314] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e315]:
+            - link "Contact" [ref=e316] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e317]:
+            - button "Manage cookies" [ref=e319] [cursor=pointer]
+          - listitem [ref=e320]:
+            - button "Do not share my personal information" [ref=e322] [cursor=pointer]
+```

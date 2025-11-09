@@ -1,0 +1,354 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Selenium logo green" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Selenium logo green" [ref=e6]
+      - generic [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - button "About" [ref=e20] [cursor=pointer]
+          - listitem [ref=e21]:
+            - link "Downloads" [ref=e22] [cursor=pointer]:
+              - /url: /downloads
+          - listitem [ref=e23]:
+            - link "Documentation" [ref=e24] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e25]:
+            - link "Projects" [ref=e26] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e27]:
+            - link "Support" [ref=e28] [cursor=pointer]:
+              - /url: /support
+          - listitem [ref=e29]:
+            - link "Blog" [ref=e30] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e31]:
+            - button "English" [ref=e33] [cursor=pointer]
+        - button "Search" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - generic [ref=e41]: Search
+          - generic [ref=e42]:
+            - generic [ref=e43]: ⌘
+            - generic [ref=e44]: K
+    - alert [ref=e48]:
+      - heading "Registrations Open for SeleniumConf 2026 | May 06–08 | Join Us In-Person! Register now!" [level=4] [ref=e49]:
+        - text: Registrations Open for SeleniumConf 2026 | May 06–08 | Join Us In-Person!
+        - link "Register now!" [ref=e50] [cursor=pointer]:
+          - /url: https://seleniumconf.com/register/?utm_medium=Referral&utm_source=selenium.dev&utm_campaign=register
+  - generic [ref=e51]:
+    - generic [ref=e53]:
+      - complementary [ref=e54]:
+        - generic [ref=e55]:
+          - text: 
+          - navigation [ref=e56]:
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - link "Documentation" [ref=e59] [cursor=pointer]:
+                  - /url: /documentation/
+                - list [ref=e60]:
+                  - listitem [ref=e61]:
+                    - link "Overview" [ref=e62] [cursor=pointer]:
+                      - /url: /documentation/overview/
+                    - list
+                  - listitem [ref=e63]:
+                    - link "WebDriver" [ref=e64] [cursor=pointer]:
+                      - /url: /documentation/webdriver/
+                    - list [ref=e65]:
+                      - listitem [ref=e66]:
+                        - link "Getting Started" [ref=e67] [cursor=pointer]:
+                          - /url: /documentation/webdriver/getting_started/
+                        - list
+                      - listitem [ref=e68]:
+                        - link "Drivers" [ref=e69] [cursor=pointer]:
+                          - /url: /documentation/webdriver/drivers/
+                        - list
+                      - listitem [ref=e70]:
+                        - link "Browsers" [ref=e71] [cursor=pointer]:
+                          - /url: /documentation/webdriver/browsers/
+                        - list
+                      - listitem [ref=e72]:
+                        - link "Waits" [ref=e73] [cursor=pointer]:
+                          - /url: /documentation/webdriver/waits/
+                      - listitem [ref=e74]:
+                        - link "Elements" [ref=e75] [cursor=pointer]:
+                          - /url: /documentation/webdriver/elements/
+                        - list
+                      - listitem [ref=e76]:
+                        - link "Interactions" [ref=e77] [cursor=pointer]:
+                          - /url: /documentation/webdriver/interactions/
+                        - list [ref=e78]:
+                          - listitem [ref=e79]:
+                            - link "Navigation" [ref=e80] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/navigation/
+                          - listitem [ref=e81]:
+                            - link "Alerts" [ref=e82] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/alerts/
+                          - listitem [ref=e83]:
+                            - link "Cookies" [ref=e84] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/cookies/
+                          - listitem [ref=e85]:
+                            - link "Frames" [ref=e86] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/frames/
+                          - listitem [ref=e87]:
+                            - link "Print Page" [ref=e88] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/print_page/
+                          - listitem [ref=e89]:
+                            - link "Windows" [ref=e90] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/windows/
+                          - listitem [ref=e91]:
+                            - link "Virtual Authenticator" [ref=e92] [cursor=pointer]:
+                              - /url: /documentation/webdriver/interactions/virtual_authenticator/
+                      - listitem [ref=e93]:
+                        - link "Actions API" [ref=e94] [cursor=pointer]:
+                          - /url: /documentation/webdriver/actions_api/
+                        - list
+                      - listitem [ref=e95]:
+                        - link "BiDi" [ref=e96] [cursor=pointer]:
+                          - /url: /documentation/webdriver/bidi/
+                        - list
+                      - listitem [ref=e97]:
+                        - link "Support Features" [ref=e98] [cursor=pointer]:
+                          - /url: /documentation/webdriver/support_features/
+                        - list
+                      - listitem [ref=e99]:
+                        - link "Troubleshooting" [ref=e100] [cursor=pointer]:
+                          - /url: /documentation/webdriver/troubleshooting/
+                        - list
+                  - listitem [ref=e101]:
+                    - link "Selenium Manager" [ref=e102] [cursor=pointer]:
+                      - /url: /documentation/selenium_manager/
+                  - listitem [ref=e103]:
+                    - link "Grid" [ref=e104] [cursor=pointer]:
+                      - /url: /documentation/grid/
+                    - list
+                  - listitem [ref=e105]:
+                    - link "IE Driver Server" [ref=e106] [cursor=pointer]:
+                      - /url: /documentation/ie_driver_server/
+                    - list
+                  - listitem [ref=e107]:
+                    - link "IDE" [ref=e108] [cursor=pointer]:
+                      - /url: /documentation/ide/
+                  - listitem [ref=e109]:
+                    - link "Test Practices" [ref=e110] [cursor=pointer]:
+                      - /url: /documentation/test_practices/
+                    - list
+                  - listitem [ref=e111]:
+                    - link "Legacy" [ref=e112] [cursor=pointer]:
+                      - /url: /documentation/legacy/
+                    - list
+                  - listitem [ref=e113]:
+                    - link "About" [ref=e114] [cursor=pointer]:
+                      - /url: /documentation/about/
+                    - list
+      - complementary [ref=e115]:
+        - generic [ref=e116]:
+          - link " Edit this page" [ref=e117] [cursor=pointer]:
+            - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/edit/trunk/website_and_docs/content/documentation/webdriver/interactions/alerts.en.md
+            - generic [ref=e118]: 
+            - text: Edit this page
+          - link " Create documentation issue" [ref=e119] [cursor=pointer]:
+            - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/issues/new?title=JavaScript%20alerts,%20prompts%20and%20confirmations
+            - generic [ref=e120]: 
+            - text: Create documentation issue
+          - link " Create project issue" [ref=e121] [cursor=pointer]:
+            - /url: https://github.com/seleniumhq/selenium/issues/new
+            - generic [ref=e122]: 
+            - text: Create project issue
+          - link " Print entire section" [ref=e123] [cursor=pointer]:
+            - /url: https://www.selenium.dev/_print/documentation/webdriver/interactions/
+            - generic [ref=e124]: 
+            - text: Print entire section
+        - separator [ref=e125]
+        - navigation [ref=e127]:
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "Alerts" [ref=e130] [cursor=pointer]:
+                - /url: "#alerts"
+            - listitem [ref=e131]:
+              - link "Confirm" [ref=e132] [cursor=pointer]:
+                - /url: "#confirm"
+            - listitem [ref=e133]:
+              - link "Prompt" [ref=e134] [cursor=pointer]:
+                - /url: "#prompt"
+        - separator [ref=e135]
+      - main [ref=e136]:
+        - navigation "breadcrumb" [ref=e137]:
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - link "Documentation" [ref=e140] [cursor=pointer]:
+                - /url: https://www.selenium.dev/documentation/
+            - listitem [ref=e141]:
+              - text: /
+              - link "WebDriver" [ref=e142] [cursor=pointer]:
+                - /url: https://www.selenium.dev/documentation/webdriver/
+            - listitem [ref=e143]:
+              - text: /
+              - link "Interactions" [ref=e144] [cursor=pointer]:
+                - /url: https://www.selenium.dev/documentation/webdriver/interactions/
+            - listitem [ref=e145]:
+              - text: /
+              - link "Alerts" [ref=e146] [cursor=pointer]:
+                - /url: https://www.selenium.dev/documentation/webdriver/interactions/alerts/
+            - generic [ref=e147]: v4.0
+        - generic [ref=e148]:
+          - heading "JavaScript alerts, prompts and confirmations" [level=1] [ref=e149]
+          - paragraph [ref=e150]: WebDriver provides an API for working with the three types of native popup messages offered by JavaScript. These popups are styled by the browser and offer limited customisation.
+          - heading "Alerts" [level=2] [ref=e151]
+          - paragraph [ref=e152]: The simplest of these is referred to as an alert, which shows a custom message, and a single button which dismisses the alert, labelled in most browsers as OK. It can also be dismissed in most browsers by pressing the close button, but this will always do the same thing as the OK button. See an example alert.
+          - paragraph [ref=e153]: WebDriver can get the text from the popup and accept or dismiss these alerts.
+          - tablist [ref=e154]:
+            - tab "Java" [selected] [ref=e155] [cursor=pointer]
+            - tab "Python" [ref=e156] [cursor=pointer]
+            - tab "CSharp" [ref=e157] [cursor=pointer]
+            - tab "Ruby" [ref=e158] [cursor=pointer]
+            - tab "JavaScript" [ref=e159] [cursor=pointer]
+            - tab "Kotlin" [ref=e160] [cursor=pointer]
+          - generic [ref=e161]:
+            - tabpanel "Java" [ref=e162]:
+              - code [ref=e166]:
+                - text: import static
+                - generic [ref=e167]: org.junit.jupiter.api.
+                - text: "Assertions.assertEquals; public class AlertsTest extends BaseTest { @BeforeEach"
+              - generic [ref=e169]:
+                - generic [ref=e170] [cursor=pointer]: View Complete Code
+                - link " View on GitHub" [ref=e171] [cursor=pointer]:
+                  - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk//examples/java/src/test/java/dev/selenium/interactions/AlertsTest.java#L36-L41
+                  - generic [ref=e172]: 
+                  - text: View on GitHub
+            - text:   
+          - heading "Confirm" [level=2] [ref=e173]
+          - paragraph [ref=e174]: A confirm box is similar to an alert, except the user can also choose to cancel the message. See a sample confirm.
+          - paragraph [ref=e175]: "This example also shows a different approach to storing an alert:"
+          - tablist [ref=e176]:
+            - tab "Java" [selected] [ref=e177] [cursor=pointer]
+            - tab "Python" [ref=e178] [cursor=pointer]
+            - tab "CSharp" [ref=e179] [cursor=pointer]
+            - tab "Ruby" [ref=e180] [cursor=pointer]
+            - tab "JavaScript" [ref=e181] [cursor=pointer]
+            - tab "Kotlin" [ref=e182] [cursor=pointer]
+          - generic [ref=e183]:
+            - tabpanel "Java" [ref=e184]:
+              - code [ref=e188]: driver.findElement(By.id("slow-alert")).click(); wait.until(ExpectedConditions.alertIsPresent()); Alert alert = driver.switchTo().alert(); Assertions.assertEquals("Slow", alert.getText()); alert.accept();
+              - generic [ref=e190]:
+                - generic [ref=e191] [cursor=pointer]: View Complete Code
+                - link " View on GitHub" [ref=e192] [cursor=pointer]:
+                  - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk//examples/java/src/test/java/dev/selenium/interactions/AlertsTest.java#L131-L138
+                  - generic [ref=e193]: 
+                  - text: View on GitHub
+            - text:   
+          - heading "Prompt" [level=2] [ref=e194]
+          - paragraph [ref=e195]: Prompts are similar to confirm boxes, except they also include a text input. Similar to working with form elements, you can use WebDriver’s send keys to fill in a response. This will completely replace the placeholder text. Pressing the cancel button will not submit any text. See a sample prompt.
+          - tablist [ref=e196]:
+            - tab "Java" [selected] [ref=e197] [cursor=pointer]
+            - tab "Python" [ref=e198] [cursor=pointer]
+            - tab "CSharp" [ref=e199] [cursor=pointer]
+            - tab "Ruby" [ref=e200] [cursor=pointer]
+            - tab "JavaScript" [ref=e201] [cursor=pointer]
+            - tab "Kotlin" [ref=e202] [cursor=pointer]
+          - generic [ref=e203]:
+            - tabpanel "Java" [ref=e204]:
+              - code [ref=e208]: "@Test public void promptDisplayAndInputTest() { driver.get(\"https://www.selenium.dev/selenium/web/alerts.html#\"); driver.findElement(By.id(\"prompt\")).click(); //Wait for the alert to be displayed and store it in a variable"
+              - generic [ref=e210]:
+                - generic [ref=e211] [cursor=pointer]: View Complete Code
+                - link " View on GitHub" [ref=e212] [cursor=pointer]:
+                  - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk//examples/java/src/test/java/dev/selenium/interactions/AlertsTest.java#L79-L84
+                  - generic [ref=e213]: 
+                  - text: View on GitHub
+            - text:   
+          - generic [ref=e214]:
+            - text: "Last modified August 14, 2025:"
+            - link "Fixing path for code block (c7fcb0099f5)" [ref=e215] [cursor=pointer]:
+              - /url: https://github.com/SeleniumHQ/seleniumhq.github.io/commit/c7fcb0099f58ba4d4dd467a8c6667f6130749d82
+    - heading "Development Partners" [level=2] [ref=e217]
+    - generic [ref=e218]:
+      - link "BrowserStack" [ref=e220] [cursor=pointer]:
+        - /url: https://www.browserstack.com/automate?utm_campaign=open-source-sponsor&utm_campaigncode=701OW000009sQwVYAU&utm_medium=partnered&utm_source=seleniumorg
+        - img "BrowserStack" [ref=e221]
+      - link "Sauce Labs" [ref=e223] [cursor=pointer]:
+        - /url: https://saucelabs.com/resources/topic-hub/selenium?utm_source=selenium&utm_medium=website&utm_campaign=selenium-sponsorship-fy25
+        - img "Sauce Labs" [ref=e224]
+      - link "LambdaTest" [ref=e226] [cursor=pointer]:
+        - /url: https://www.lambdatest.com/selenium-automation?utm_source=selenium&utm_medium=open-source-sponsor&utm_campaign=nov_14&utm_term=sk&utm_content=web
+        - img "LambdaTest" [ref=e227]
+    - heading "Selenium Level Sponsors" [level=2] [ref=e229]
+    - generic [ref=e230]:
+      - link "Bright Data" [ref=e232] [cursor=pointer]:
+        - /url: https://brightdata.com/?utm_source=brand&utm_campaign=brnd-mkt_partners_selenium
+        - img "Bright Data" [ref=e233]
+      - link "Applitools" [ref=e235] [cursor=pointer]:
+        - /url: https://applitools.com/
+        - img "Applitools" [ref=e236]
+    - generic [ref=e239]:
+      - heading "Support the Selenium Project" [level=2] [ref=e240]
+      - paragraph [ref=e241]: Learn more or view the full list of sponsors.
+      - link "Learn more " [ref=e243] [cursor=pointer]:
+        - /url: /sponsors
+        - text: Learn more
+        - generic [ref=e244]: 
+    - contentinfo [ref=e245]:
+      - generic [ref=e247]:
+        - list [ref=e249]:
+          - listitem "Selenium Linkedin" [ref=e250]:
+            - link "Selenium Linkedin" [ref=e251] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/4826427/
+              - generic [ref=e252]: 
+          - listitem "Selenium X" [ref=e253]:
+            - link "Selenium X" [ref=e254] [cursor=pointer]:
+              - /url: https://x.com/SeleniumHQ
+              - generic [ref=e255]: 
+          - listitem "Selenium Community YouTube Channel" [ref=e256]:
+            - link "Selenium Community YouTube Channel" [ref=e257] [cursor=pointer]:
+              - /url: https://www.youtube.com/@SeleniumHQProject/
+              - generic [ref=e258]: 
+          - listitem "Selenium Mastodon" [ref=e259]:
+            - link "Selenium Mastodon" [ref=e260] [cursor=pointer]:
+              - /url: https://mastodon.social/@seleniumHQ@fosstodon.org
+              - generic [ref=e261]: 
+          - listitem "Selenium BlueSky" [ref=e262]:
+            - link "Selenium BlueSky" [ref=e263] [cursor=pointer]:
+              - /url: https://bsky.app/profile/seleniumconf.bsky.social
+              - generic [ref=e264]: 
+          - listitem "User mailing list" [ref=e265]:
+            - link "User mailing list" [ref=e266] [cursor=pointer]:
+              - /url: https://groups.google.com/group/selenium-users
+              - generic [ref=e267]: 
+          - listitem "SeleniumConf YouTube Channel" [ref=e268]:
+            - link "SeleniumConf YouTube Channel" [ref=e269] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbDlgX_613xNMrDqCe3QNEw
+              - generic [ref=e270]: 
+        - generic [ref=e271]:
+          - list [ref=e272]:
+            - listitem "Software Freedom Conservancy" [ref=e273]:
+              - link "Software Freedom Conservancy" [ref=e274] [cursor=pointer]:
+                - /url: mailto:selenium@sfconservancy.org
+                - generic [ref=e275]: 
+            - listitem "GitHub" [ref=e276]:
+              - link "GitHub" [ref=e277] [cursor=pointer]:
+                - /url: https://github.com/seleniumhq/selenium
+                - generic [ref=e278]: 
+            - listitem "Slack" [ref=e279]:
+              - link "Slack" [ref=e280] [cursor=pointer]:
+                - /url: https://inviter.co/seleniumhq
+                - generic [ref=e281]: 
+            - listitem "IRC" [ref=e282]:
+              - link "IRC" [ref=e283] [cursor=pointer]:
+                - /url: https://web.libera.chat/#selenium
+                - generic [ref=e284]: 
+            - listitem "Developer mailing list" [ref=e285]:
+              - link "Developer mailing list" [ref=e286] [cursor=pointer]:
+                - /url: https://groups.google.com/g/selenium-developers
+                - generic [ref=e287]: 
+          - link "Deploys by Netlify" [ref=e288] [cursor=pointer]:
+            - /url: https://www.netlify.com
+            - img "Deploys by Netlify" [ref=e289]
+        - generic [ref=e290]:
+          - text: © 2025 Software Freedom Conservancy All Rights Reserved
+          - paragraph [ref=e291]:
+            - link "About Selenium" [ref=e292] [cursor=pointer]:
+              - /url: /about/
+```

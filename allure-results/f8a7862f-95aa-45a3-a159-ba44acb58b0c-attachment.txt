@@ -1,0 +1,3 @@
+Test Started
+popup type is : alert
+Alert popup is : Sample alert

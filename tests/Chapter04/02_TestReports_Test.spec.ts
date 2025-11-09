@@ -55,3 +55,19 @@ test('Prompt Popup in Playwright', async ({ page }) => {
 
     await page.getByText('See a sample prompt', { exact: true }).click();
 })
+
+test('Confirmm Popup in Playwright', async ({ page }) => {
+    console.log("Test Started")
+    // launch the browser and open a new google page
+    await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
+
+    page.once('dialog', dialog => {
+        console.log(`popup type is : ${dialog.type()}`)
+        // Click the ok button
+        dialog.accept();
+        //Print the popup text
+        //console.log(`Alert popup is : ${dialog.message()}`);
+    })
+
+    await page.getByText('See a sammple confirm', { exact: true }).click();
+})

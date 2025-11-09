@@ -21,8 +21,13 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,  // So 2 is CI/CD paramater, and last is local parameter
   /* Opt out of parallel tests on CI. */
   workers: 1,
+  // workers: process.env.CI ? 1 : 4,  // running parelly change last parameter
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [
+    ['html'],
+    ['allure-playwright']
+    // ['json', { outputFile: 'json-test-report.json' }],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -30,6 +35,7 @@ export default defineConfig({
 
     // headless: true,
     headless: false,
+    video: 'on',
     screenshot: 'on',
     testIdAttribute: 'data-tab-item',
 
